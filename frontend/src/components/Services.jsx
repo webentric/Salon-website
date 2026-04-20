@@ -1,37 +1,4 @@
-const SERVICES = [
-    {
-        id: "hair",
-        label: "HAIR AESTHETICS",
-        href: "#hair",
-        img: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=400&auto=format&fit=crop&q=80",
-        alt: "Woman with beautiful curly hair — Hair Aesthetics service",
-        bg: "#f5ede3",
-    },
-    {
-        id: "skin",
-        label: "SKIN CARE",
-        href: "#skin",
-        img: "https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=400&auto=format&fit=crop&q=80",
-        alt: "Person making heart shape — Skin Care service",
-        bg: "#e8e8e8",
-    },
-    {
-        id: "nail",
-        label: "NAIL CARE",
-        href: "#nail",
-        img: "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&auto=format&fit=crop&q=80",
-        alt: "Red painted nails with love text — Nail Care service",
-        bg: "#efefef",
-    },
-    {
-        id: "products",
-        label: "PRODUCTS",
-        href: "#products",
-        img: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=400&auto=format&fit=crop&q=80",
-        alt: "Luxury skincare product bottles — Products",
-        bg: "#ede8e0",
-    },
-];
+import { SERVICES } from "../data";
 
 export default function Services() {
     return (

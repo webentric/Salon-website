@@ -1,13 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { NavLink } from "react-router-dom";
-
-const NAV_LINKS = [
-  { label: "HOME", href: "/" },
-  { label: "HAIR AESTHETICS", href: "/hair" },
-  { label: "SKIN CARE", href: "/skin" },
-  { label: "NAIL CARE", href: "/nail" },
-  { label: "PRODUCTS", href: "/products" },
-];
+import { NAV_LINKS } from "../data";
 
 const SocialIcons = {
   Facebook: (
@@ -38,6 +31,7 @@ const SocialIcons = {
     </svg>
   ),
 };
+
 
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);

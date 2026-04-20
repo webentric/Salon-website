@@ -1,39 +1,6 @@
 import story_bg from '../assets/images/story.jpg'
 
-const LINKS = [
-    {
-        id: "founder",
-        label: ["MET THE", "FOUNDER"],
-        href: "#founder",
-        img: "https://images.unsplash.com/photo-1483058712412-4245e9b90334?w=500&auto=format&fit=crop&q=80",
-        alt: "Person working on a laptop — Meet the Founder",
-        tint: "rgba(196,162,140,0.55)",
-    },
-    {
-        id: "booking",
-        label: ["BOOK AN", "APPOINTMENT"],
-        href: "#booking",
-        img: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=500&auto=format&fit=crop&q=80",
-        alt: "Stylist holding tools — Book an Appointment",
-        tint: "rgba(210,175,155,0.50)",
-    },
-    {
-        id: "products",
-        label: ["SHOP THE", "PRODUCTS"],
-        href: "#products",
-        img: "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=500&auto=format&fit=crop&q=80",
-        alt: "Luxury skincare bottles — Shop the Products",
-        tint: "rgba(190,160,138,0.52)",
-    },
-    {
-        id: "gallery",
-        label: ["BEFORE/AFTER", "GALLERY"],
-        href: "#gallery",
-        img: "",
-        alt: "Before and After Gallery",
-        tint: "rgba(196,162,138,1)",   // solid tan — no image, just colour
-    },
-];
+import { LINKS } from '../data';
 
 
 export default function Story() {

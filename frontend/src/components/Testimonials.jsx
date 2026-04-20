@@ -1,22 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-
-const TESTIMONIALS = [
-    {
-        id: 1,
-        text: "Loved this place and the hair makeover done was extremely amazing :) I'm completely happy and satisfied with the mind blowing services and experience i received from them. Especially Appu who did the magic in just few minutes. I got good hair and skin tips as well from them. Thank you so much guys for the new look. Definitely coming there next time and so on .. Best Wishes!! Keep up the great work :)",
-        author: "Ferlin Getziah",
-    },
-    {
-        id: 2,
-        text: "Absolutely wonderful experience at ANLON! The staff was incredibly professional and attentive. My skin has never looked better after their facial treatment. The ambiance is luxurious and calming. Highly recommend to anyone looking for a premium salon experience in the city.",
-        author: "Priya Sharma",
-    },
-    {
-        id: 3,
-        text: "Best nail care service I've ever had. The technicians are meticulous, hygienic and truly skilled. The salon is beautifully designed and every detail is taken care of. Will definitely be coming back with my friends. ANLON has truly set a new standard for salons!",
-        author: "Meera Nair",
-    },
-];
+import { TESTIMONIALS } from "../data";
 
 export default function Testimonials() {
     const [current, setCurrent] = useState(0);

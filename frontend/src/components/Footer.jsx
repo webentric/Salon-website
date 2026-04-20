@@ -1,15 +1,6 @@
-const QUICK_LINKS = [
-    { label: "HOME", href: "#home" },
-    { label: "ABOUT US", href: "#about" },
-    { label: "HAIR AESTHETICS", href: "#hair" },
-    { label: "SKIN CARE", href: "#skin" },
-    { label: "NAIL CARE", href: "#nail" },
-    { label: "PRODUCTS", href: "#products" },
-    { label: "BEFORE/AFTER", href: "#gallery" },
-    { label: "BLOG", href: "#blog" },
-];
+import { QUICK_LINKS } from "../data";
 
-const SOCIAL = [
+export const SOCIAL = [
     {
         name: "Facebook",
         href: "#",
